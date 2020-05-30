@@ -76,17 +76,17 @@
   <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.3.0/angularfire.js"></script>
   <script>
-    var config = {
-      apiKey: "AIzaSyCCMDA9AUgTlXO6YW_5X16A1pwGKGCLczI",
-      authDomain: "vampire-rpg-4a676.firebaseapp.com",
-      databaseURL: "https://vampire-rpg-4a676.firebaseio.com",
-      projectId: "vampire-rpg-4a676",
-      storageBucket: "vampire-rpg-4a676.appspot.com",
-      messagingSenderId: "933460033266",
-      appId: "1:933460033266:web:8eb3ac463c9b84ef9e5a6b"
-    };
-
-    firebase.initializeApp(config);
+   // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCCMDA9AUgTlXO6YW_5X16A1pwGKGCLczI",
+    authDomain: "vampire-rpg-4a676.firebaseapp.com",
+    databaseURL: "https://vampire-rpg-4a676.firebaseio.com",
+    projectId: "vampire-rpg-4a676",
+    storageBucket: "vampire-rpg-4a676.appspot.com",
+    messagingSenderId: "933460033266",
+    appId: "1:933460033266:web:8eb3ac463c9b84ef9e5a6b"
+  };
+    firebase.initializeApp(firebaseConfig);
     angular.element(function(){
       setTimeout(function(){
         angular.bootstrap(document, ['site']);
